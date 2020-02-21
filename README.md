@@ -2,11 +2,11 @@
 MagCosmoMC 
 ===========
 ## Magnetic Field in the pre-recombination era with  CosmoMC
-This is the official repository for the MagCosmoMC patch. It implements the patch [MagCAMB](https://github.com/sfu-cosmo/MGCAMB) into the popular Markov Chain Monte Carlo engine [CosmoMC](https://github.com/cmbant/CosmoMC).
+This is the official repository for the MagCosmoMC patch. It implements the patch [MagCAMB](https://github.com/alexzucca90/MagCAMB) into the popular Markov Chain Monte Carlo engine [CosmoMC](https://github.com/cmbant/CosmoMC).
 
 ## Table of contents
 * [1. Introduction](#1-introduction)
-    * [Citing MGCosmoMC](#citing-mgcosmomc)
+    * [Citing MagCosmoMC](#citing-magcosmomc)
 * [2. How to install](#2-how-to-install)
 * [3. How to run](#3-how-to-run)
 * [4. DES 1YR dataset](#4-des-1yr-dataset)
@@ -18,33 +18,26 @@ This is the official repository for the MagCosmoMC patch. It implements the patc
 
 
 ## 1. Introduction
-MGCosmoMC allows to set constraint on Modified Growth (MG) - Dark Energy (DE) scenarios using cosmological data. It is a patch for the popular code [CosmoMC](https://github.com/cmbant/CosmoMC), and as such it follows all the installing procedures and running procedures. We refer the reader to the [official CosmoMC webpage](http://cosmologist.info/cosmomc/) and the [ReadMe](http://cosmologist.info/cosmomc/readme.html) for the instructions.
+MagCosmoMC allows to set constraint on Primordial Magnetic Fields (PMFs) using cosmological data. It is a patch for the popular code [CosmoMC](https://github.com/cmbant/CosmoMC), and as such it follows all the installing procedures and running procedures. We refer the reader to the [official CosmoMC webpage](http://cosmologist.info/cosmomc/) and the [ReadMe](http://cosmologist.info/cosmomc/readme.html) for the instructions.
 
-### Citing MGCosmoMC
-If you use MGCosmoMC for your scientific work, please cite the following papers:
+**This repo is still WORK IN PROGRESS**
 
-* *MGCAMB with massive neutrinos and dynamical dark energy*   
-    Alex Zucca, Levon Pogosian, Alessandra Silvestri, and Gong-Bo Zhao  
-    [arXiv:1901.05956 [astro-ph.CO]](https://arxiv.org/abs/1901.05956)
+### Citing MagCosmoMC
+If you use MagCosmoMC for your scientific work, please cite the following papers:
 
-
-* *Testing Gravity with CAMB and CosmoMC*  
-Alireza Hojjati, Levon Pogosian, Gong-Bo Zhao,  
-[arXiv:1106.4543 [astro-ph.CO]](https://arxiv.org/abs/1106.4543), [JCAP 1108:005,2011](http://iopscience.iop.org/article/10.1088/1475-7516/2011/08/005)
-
-
-* *Searching for modified growth patterns with tomographic surveys*  
-Gong-Bo Zhao, Levon Pogosian, Alessandra Silvestri, Joel Zylberberg,  
-[arXiv:0809.3791 [astro-ph]](http://arxiv.org/abs/0809.3791), [Phys. Rev. D 79, 083513](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.79.083513)
-
+* *Constraints on Primordial Magnetic Fields from Planck combined with the South Pole Telescope CMB B-mode polarization measurements*   
+    Alex Zucca, Yun Li, Levon Pogosian
+    [arXiv:1611.00757 [astro-ph.CO]](https://arxiv.org/abs/1611.00757)
 
 as well as the original CAMB [paper](http://arxiv.org/abs/astro-ph/9911177)  and CosmoMC [paper](https://arxiv.org/abs/astro-ph/0205436). The file  [``` MGCosmoMC_references.bib```](references/MGCosmoMC_references.bib) contains  all the references mentioned above.
 
 ## 2. How to install
-To install MGCosmoMC simply run on your terminal:
+
+**NOT WORKING YET**
+To install MagCosmoMC simply run on your terminal:
 ```bash
-git clone https://github.com/sfu-cosmo/MGCosmoMC
-cd MGCosmoMC
+git clone https://github.com/sfu-cosmo/MagCosmoMC
+cd MagCosmoMC
 make cosmomc
 ```
 Follow these [instructions](http://cosmologist.info/cosmomc/readme.html) for a step-by-step guide to install CosmoMC.
